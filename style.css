@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300&display=swap');
+
+body{
+    font-family: 'Spartan', sans-serif;
+    /* background:radial-gradient(circle at center, red 0, blue, green 100%) */
+ 
+}
+
+.hex-color{
+    width: 100%;
+    text-align: center;
+}
+
+/* .main{
+    background-image: radial-gradient(#76B85F , #1F632A , #76B85F);
+} */
+
+#pattern{
+    background-color: aliceblue;
+    width: auto;
+    border-style:dotted;
+    box-shadow: inset  1px 1px 1px rgba(0,0,0,0.4);
+    border-radius:5px;
+    margin-left: 25%; 
+    margin-right: 25%; 
+    padding: 7px;
+}
+
+#linear , #radial {
+    border-radius:5px;
+    background-color: aliceblue;
+    /* border-style: none; */
+    padding: 10px;
+    margin: 25px;
+    font-family: 'Spartan', sans-serif;
+    font-weight: bold;
+}
+
+#linear:hover , #radial:hover {
+    background-color: black;
+    color: white;
+}
